@@ -1,6 +1,6 @@
 # Tensorflow Object Detection Walkthrough with Raspberry Pi
 <p>The following repository will allow you to leverage Tensorflow Object Detection models that have been converted to TFLite on a Raspberry Pi. This accompanies the Tensorflow Object Detection course on my <a href="https://www.youtube.com/c/nicholasrenotte">YouTube channel</a>. 
-<img src="https://i.imgur.com/H3tUyKM.png">
+<img src="https://i.imgur.com/qkt6XiQ.png">
 
 ## Steps
 <br />
