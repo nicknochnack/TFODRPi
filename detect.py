@@ -24,7 +24,7 @@ def set_input_tensor(interpreter, image):
   """Sets the input tensor."""
   tensor_index = interpreter.get_input_details()[0]['index']
   input_tensor = interpreter.tensor(tensor_index)()[0]
-  input_tensor[:, :] = np.expand_dims((image-128)/128, axis=0)
+  input_tensor[:, :] = np.expand_dims((image-255)/255, axis=0)
 
 
 def get_output_tensor(interpreter, index):
